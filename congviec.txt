@@ -1,0 +1,10 @@
+CREATE TABLE chucvu (
+	chucvu VARCHAR(50) PRIMARY KEY,
+	luong INT
+);
+INSERT INTO chucvu(chucvu, luong) VALUES
+	('nhanvien', 100000),
+	('phophong', 100000),
+	('truongphong', 100000),
+	('phogiamdoc', 100000),
+	('giamdoc', 100000);
